@@ -1,0 +1,163 @@
+/************************************************ bénévole **********************************/
+.voluntariat h2{
+    padding: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: #5d5ddf;
+}
+
+.voluntariat p{
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    border: #5d5ddf solid 3px;
+    border-radius: 10px;
+}
+
+.col-md-4{
+    margin: 0.5rem 0;
+}
+/************************************************ bénévole **********************************/
+
+/************************************************ bénévole bénévole media **********************************/
+@media(min-width:790px){
+    .voluntariat{
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+}
+/************************************************ bénévole media **********************************/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/************************************************ navbar **********************************/
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+    color:#5d5ddf;
+}
+
+
+.logo:hover{
+    color:#5d5ddfcb;
+}
+
+.menu{
+    position: relative;
+}
+
+.menu:after {
+    content: "";
+    position: absolute;
+    background-color: #5d5ddfcb;
+    height: 3px;
+    margin-left: 5px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+.menu:hover:after {
+    width: 90%;
+}
+
+.menu:hover {
+    color: #5d5ddfcb;
+}
+
+.menu li:hover{
+    color:#5d5ddfcb;
+}
+
+.btn-donate{
+    border: solid 1px #5d5ddfcb;
+    color: #5d5ddfcb;
+    transition: all 0.5s;
+}
+
+.btn-donate:hover{
+    color: #ffff;
+    background-color: #5d5ddfcb;
+}
+/************************************************ navbar **********************************/
+
+
+
+/************************************************ contact **********************************/
+.footer{
+    width: 100%;
+}
+
+.footer h2{
+    padding: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: #5d5ddf;
+}
+
+.footer strong{
+    font-family: 'Pacifico', cursive;
+    color: #5d5ddf;
+}
+
+.footer p{
+    font-size: 1.4rem;
+}
+
+.rights{
+    background-color: #5d5ddf;
+    width: 100%;
+}
+
+.rights p{
+    color: #fff;
+}
+/************************************************ contact **********************************/
+
+/************************************************ media **********************************/
+@media(min-width:790px){
+    .home p{
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+    #carouselExampleAutoplaying{
+        width: 70%;
+        margin: auto;
+    }
+    .map{
+        width: 80%;
+    }
+}
+
+
+@media(min-width:1200px){
+    .home p{
+        margin: 0 5rem;
+        font-size: 1.5rem;
+    }
+    #carouselExampleAutoplaying{
+        width: 50%;
+        margin: auto;
+    }
+    .accordion {
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 5rem;
+    }
+    .map{
+        width: 80%;
+    }
+    .contact h2, .contact p{
+        font-size: 2rem;
+    }
+}
+/************************************************ media **********************************/
